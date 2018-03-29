@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>真合拍</title>
+	<link rel="stylesheet" href="./css/common.css">
+	<link rel="stylesheet" href="./css/swiper.min.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<style>
+    html, body {
+        position: relative;
+        max-width:100%;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .slide_bottom_dot{
+        position:absolute;
+        bottom:34px;
+        left:50%;
+        transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+    .slide_bottom_dot  .swiper-pagination-bullet{
+        width:50px;
+        height:50px;
+    }
+    .swiper-wrapper{
+        transition:.5s;
+        -moz-transition:.5s;
+        -o-transition:.5s;
+        -webkit-transition:.5s;
+        -ms-transition:.5s;
+    }
+    </style>
+</head>
+<body>
+	<div class="swiper-container">
+	    <div class="swiper-wrapper">
+	    	<!-- 第一屏 -->
+	        <div class="swiper-slide">
+                <div class="main">
+                	<span class="bg_img">
+                        <img src="./img/view_bg.png" alt="">
+                	</span>
+                    <div class="logo">
+                        <img src="./img/logo.png" alt="">
+                    </div>
+                    <!--中间内容 -->
+                    <div class="view1_content">
+                        <img src="./img/logo_text.png" alt="" class="logo_text">
+                        <img src="./img/view1_text.png" alt="" class="view1_text">
+                    </div>
+                    <div class="down_load">
+                        <a href="https://itunes.apple.com/cn/app/%E7%9C%9F%E5%90%88%E6%8B%8D/id1345324636?mt=8" >立即下载</a>
+                    </div>
+                    <div class="slide_down slide_down_animation">
+                        <img src="./img/down.png" alt="">
+                    </div>
+                    <!-- <div class="swiper-pagination slide_bottom_dot"></div> -->
+                </div>
+	        </div>
+	        <!-- 第二屏 -->
+	        <div class="swiper-slide">
+                <div class="main">
+                	<span class="bg_img">
+                        <img src="./img/view2_bg.png" alt="">
+                	</span>
+                    <div class="logo">
+                        <img src="./img/logo.png" alt="">
+                    </div>
+                    <!--中间内容 -->
+                    <div class="view1_content  view2_content">
+                        <header class="head">
+                            <h2>国内专业演艺人才社区交流平台</h2>
+                            <p>演员.模特.歌手.舞者.童星.主播，精准筛选<br/>尽在掌握之中</p>
+                        </header>
+                        <span class="show_img">
+                             <img src="./img/view2_img.png" alt="">
+                        </span>
+                    </div>
+                    <!-- <div class="down_load">
+                        <a href="javascript:;">立即下载</a>
+                    </div> -->
+                    <div class="slide_down slide_down_animation">
+                        <img src="./img/down.png" alt="">
+                    </div>
+                </div>
+	        </div>
+	        <!-- 第三屏 -->
+	        <div class="swiper-slide">
+                <div class="main">
+                	<span class="bg_img">
+                        <img src="./img/view3_bg.png" alt="">
+                	</span>
+                    <!-- <div class="logo">
+                        <img src="./img/logo.png" alt="">
+                    </div> -->
+                    <!--中间内容 -->
+                    <div class="view1_content view2_content view3_content">
+                        <header class="head">
+                            <h2>官方经纪，精准推荐</h2>
+                            <p>帮你找到最需要的一人，真合拍学院让你在实<br/>现梦想的路上变得更加专业！更加自信！</p>
+                        </header>
+                        <span class="show_img">
+                             <img src="./img/view3_img.png" alt="">
+                        </span>
+                    </div>
+                    <!-- <div class="down_load">
+                        <a href="javascript:;">立即下载</a>
+                    </div> -->
+                    <div class="slide_down slide_down_animation">
+                        <img src="./img/down.png" alt="">
+                    </div>
+                </div>
+	        </div>
+	        <!-- 第四屏 -->
+	        <div class="swiper-slide">
+                <div class="main">
+                	<span class="bg_img">
+                        <img src="./img/view4_bg.png" alt="">
+                	</span>
+                    <!-- <div class="logo">
+                        <img src="./img/logo.png" alt="">
+                    </div> -->
+                    <!--中间内容 -->
+                    <div class="view1_content view2_content view4_content">
+                        <header class="head">
+                            <h2>海量组讯通告</h2>
+                            <p>真实有效，随时随地任你挑选</p>
+                        </header>
+                        <span class="show_img">
+                             <img src="./img/view4_img.png" alt="">
+                        </span>
+                    </div>
+                    <!-- <div class="down_load">
+                        <a href="javascript:;">立即下载</a>
+                    </div> -->
+                    <div class="slide_down slide_down_animation">
+                        <img src="./img/down.png" alt="">
+                    </div>
+                </div>
+	        </div>
+	        <!-- 第五屏 -->
+	        <div class="swiper-slide">
+                <div class="main">
+                	<span class="bg_img">
+                        <img src="./img/view4_bg.png" alt="">
+                	</span>
+                    <!-- <div class="logo">
+                        <img src="./img/logo.png" alt="">
+                    </div> -->
+                    <!--中间内容 -->
+                    <div class="view1_content view2_content view4_content view5_content">
+                        <header class="head">
+                            <h2>开通会员，尊享优先权限</h2>
+                            <p>沟通邀约无障碍，找艺人 接通告一步到位<br/>每日刷新，尽享首页推荐</p>
+                        </header>
+                        <span class="show_img">
+                             <img src="./img/view5_img.png" alt="">
+                        </span>
+                    </div>
+                    <!-- <div class="down_load">
+                        <a href="javascript:;">立即下载</a>
+                    </div> -->
+                    <div class="slide_down slide_down_animation">
+                        <img src="./img/down.png" alt="">
+                    </div>
+                </div>
+	        </div>
+	        <!-- 第六屏 -->
+	        <div class="swiper-slide">
+                <div class="main">
+                	<span class="bg_img">
+                        <img src="./img/view2_bg.png" alt="">
+                	</span>
+                    <div class="logo en_page">
+                        <img src="./img/logo.png" alt="">
+                    </div>
+                    <!--中间内容 -->
+                    <!-- <div class="view1_content view2_content view4_content view5_content">
+                        <header class="head">
+                            <h2>开通会员，尊享优先权限</h2>
+                            <p>沟通邀约无障碍，找艺人 接通告一步到位<br/>每日刷新，尽享首页推荐</p>
+                        </header>
+                        <span class="show_img">
+                             <img src="./img/view5_img.png" alt="">
+                        </span>
+                    </div> -->
+                    <div class="down_load">
+                        <a href="https://itunes.apple.com/cn/app/%E7%9C%9F%E5%90%88%E6%8B%8D/id1345324636?mt=8" >立即下载</a>
+                    </div>
+                    <!-- <div class="slide_down">
+                        <img src="./img/down.png" alt="">
+                    </div> -->
+                </div>
+	        </div>
+	    </div>
+	    <!-- Add Pagination -->
+	    <div class="swiper-pagination"></div>
+    </div>
+</body>
+<script src="./js/jquery-1.11.2.min.js"></script>
+<script src="./js/swiper.min.js"></script>
+<script src='./js/main.js'></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        direction: 'vertical',
+        slidesPerView: 1,
+        spaceBetween: 0,
+        mousewheel: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+    });
+</script>
+</html>
